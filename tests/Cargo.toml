@@ -1,0 +1,23 @@
+[package]
+name = "test-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+
+[[bin]]
+name = "test-app"
+path = "src/main.rs"
+
+[[bin]]
+name = "test-cli"
+path = "src/cli_test.rs"
+
+[[bin]]
+name = "test-config"
+path = "src/config_test.rs"
+
+[[bin]]
+name = "test-registry"
+path = "src/registry_test.rs"

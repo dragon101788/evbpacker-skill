@@ -1,0 +1,18 @@
+# .skill file for Claude Code — extract into .claude/skills/
+evb-pack.skill
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Build outputs
+python314-portable/
+tests/target/
+tests/*.evb
+tests/enigmavbconsole.exe
+tests/test_output.txt
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
